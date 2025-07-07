@@ -137,7 +137,8 @@ h1, h2 {
 .hero-text {
   flex: 1;                            /* Take up half the space */
   padding: 60px 40px;
-  margin-left: 32px;                  /* Add space to the left of the hero text */
+  margin-left: 8px;                  /* Change this to a smaller value or remove it */
+  margin-right: 0;                   /* Add this if needed */
   /* background-color: #003366; */     /* Remove or comment out if you want the background image to show */
   color: #FFF7E1;                     /* Light yellowish white text */
   display: flex;
@@ -195,8 +196,8 @@ h1, h2 {
   width: 100em;                       
   max-width: 45em;                    
   min-width: 13.75em;                
-  margin-left: 32px;                  /* Space between text and image */
-  margin-right: 32px;                 /* Add space to the right of the hero image */
+  margin-left: 8px;                  /* Change this to a smaller value or remove it */
+  margin-right: 8px;                 /* Change this to a smaller value or remove it */
   display: flex;                      /* Center the image vertically */
   align-items: center;                /* Center the image vertically */
 }
@@ -361,11 +362,13 @@ section {
     font-size: 2em;   /* Bigger paragraph on wide screens */
   }
   .hero-text {
-    margin-left: 8px;    /* Less space to the left of the text */
+    margin-left: 150px;    /* Small space to the left */
+    margin-right: 8px;   /* Small space to the right */
   }
   .hero-image {
-    margin-left: 8px;    /* Less space to the left of the image */
-    margin-right: 8px;   /* Less space to the right of the image */
+    margin-left: 8px;    /* Small space to the left */
+
+    margin-right: 150px;   /* Small space to the right */
   }
 }
 
