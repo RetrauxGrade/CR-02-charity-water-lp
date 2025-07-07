@@ -394,18 +394,19 @@ section {
   text-align: center;           /* Center the heading */
   font-size: 2.5em;             /* Make it bigger, like other main titles */
   margin-bottom: 24px;          /* Add some space below */
-  color: #FFF7E1;               /* Match the rest of the headings */
+  color: #1a1a1a;               /* Match the rest of the headings */
   /* Add a dark outline to the text using text-shadow */
-  text-shadow:
-    -2px -2px 0 #1a1a1a,  /* Top left shadow */
-     2px -2px 0 #1a1a1a,  /* Top right shadow */
-    -2px  2px 0 #1a1a1a,  /* Bottom left shadow */
-     2px  2px 0 #1a1a1a;  /* Bottom right shadow */
+  /*text-shadow:
+    -2px -2px 0 #1a1a1a,  
+     2px -2px 0 #1a1a1a,  
+    -2px  2px 0 #1a1a1a,  
+     2px  2px 0 #1a1a1a;*/
 }
 
 .story p {
   font-size: 1.3em;         /* Make the subtext bigger in the Who Are We card */
   line-height: 1.6;         /* Add a little more space between lines */
+  color: #1a1a1a;           /* Make the paragraph text black */
 }
 
 .impact-content p {
